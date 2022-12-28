@@ -1,0 +1,752 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Larry Hanson",
+      "email": "larryhanson@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "fullName": "Jesse Thompson",
+      "email": "jessethompson@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": true
+    },
+    {
+      "id": 3,
+      "fullName": "Gabe Rabben",
+      "email": "gaberabben@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": true
+    },
+    {
+      "id": 4,
+      "fullName": "Sam Wilson",
+      "email": "samwilson@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": true
+    },
+    {
+      "id": 5,
+      "fullName": "Mark Thomas",
+      "email": "markthomas@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": false
+    },
+    {
+      "id": 6,
+      "fullName": "Jake Roggenbuck",
+      "email": "jakeroggenbuck@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": false
+    },
+    {
+      "id": 7,
+      "fullName": "Baxter Williams",
+      "email": "baxterwilliams@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": false
+    },
+    {
+      "id": 8,
+      "fullName": "Lauren Hanson",
+      "email": "laurenhanson@fatbackstudio.com",
+      "isStaff": true,
+      "isAdmin": false
+    },
+    {
+      "id": 14,
+      "fullName": "Josh Wolfe",
+      "email": "joshwolfe@gmail.com",
+      "isStaff": false,
+      "isAdmin": false
+    },
+    {
+      "email": "devon@aol.com",
+      "fullName": "Devon Gilfillian",
+      "isStaff": false,
+      "isAdmin": false,
+      "id": 15
+    },
+    {
+      "email": "baxter@gmail.com",
+      "fullName": "Baxter Williams",
+      "isStaff": false,
+      "isAdmin": false,
+      "id": 17
+    },
+    {
+      "email": "forlornstrangers@aol.com",
+      "fullName": "Abigail Dempsey",
+      "isStaff": false,
+      "isAdmin": false,
+      "id": 18
+    },
+    {
+      "email": "cabinboys@yahoo.com",
+      "fullName": "Carl Anderson",
+      "isStaff": false,
+      "isAdmin": false,
+      "id": 19
+    },
+    {
+      "email": "charlie@aol.com",
+      "fullName": "Charlie Treat",
+      "isStaff": false,
+      "isAdmin": false,
+      "id": 20
+    },
+    {
+      "email": "fancy@fatbackstudio.com",
+      "fullName": "Fancy",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 22
+    },
+    {
+      "email": "carson@fatbackstudio.com",
+      "fullName": "Carson Cody",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 23
+    },
+    {
+      "email": "taylor@fatbackstudio.com",
+      "fullName": "Taylor Thompson",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 24
+    },
+    {
+      "email": "maureen@fatbackstudio.com",
+      "fullName": "Maureen Murphy",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 25
+    },
+    {
+      "email": "abigail@fatbackstudio.com",
+      "fullName": "Abigail Dempsey",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 26
+    },
+    {
+      "email": "nate@fatbackstudio.com",
+      "fullName": "Nate Felty",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 27
+    },
+    {
+      "email": "jason@fatbackstudio.com",
+      "fullName": "Jason Thompson",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 28
+    },
+    {
+      "email": "josh@fatbackstudio.com",
+      "fullName": "Josh Wolfe",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 29
+    },
+    {
+      "email": "jon@fatbackstudio.com",
+      "fullName": "Jon Smalt",
+      "isStaff": true,
+      "isAdmin": false,
+      "id": 30
+    },
+    {
+      "isStaff": false,
+      "isAdmin": false,
+      "fullName": "George",
+      "email": "george@fatbackstudio.com",
+      "id": 31
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "userId": 1,
+      "startDate": "04-02-1993",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671725376/FatBack/dad2_kdbayx.jpg",
+      "titleId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "startDate": "07-07-2018",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1670885552/FatBack/fatback-4_yinioc.jpg",
+      "titleId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671725260/FatBack/gabe2_wfdgvp.jpg",
+      "titleId": 2
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "startDate": "04-02-1993",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671722873/FatBack/samwilson_jlqdsm.jpg",
+      "titleId": 2
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "startDate": "07-07-2018",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671662134/FatBack/mark-25_v7fznp.jpg",
+      "titleId": 8
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671662053/FatBack/jake-28_p5s7qx.jpg",
+      "titleId": 8
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "startDate": "04-02-1993",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671664828/FatBack/baxter_j1cezo.jpg",
+      "titleId": 5
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "startDate": "07-07-2018",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671664911/FatBack/me_ktwauz.jpg",
+      "titleId": 6
+    },
+    {
+      "id": 10,
+      "userId": 22,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671722873/FatBack/fancy_upzpaz.jpg",
+      "titleId": 9
+    },
+    {
+      "id": 11,
+      "userId": 23,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671724045/FatBack/carson-13_cjyyel.jpg",
+      "titleId": 7
+    },
+    {
+      "id": 12,
+      "userId": 24,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671724496/FatBack/taylor_ix1lkm.jpg",
+      "titleId": 7
+    },
+    {
+      "id": 13,
+      "userId": 25,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671724496/FatBack/maureen_oinjhf.jpg",
+      "titleId": 10
+    },
+    {
+      "id": 14,
+      "userId": 26,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671727628/FatBack/abigail2_f0c8hv.jpg",
+      "titleId": 10
+    },
+    {
+      "id": 15,
+      "userId": 27,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671724497/FatBack/nate2_jmrcf1.jpg",
+      "titleId": 7
+    },
+    {
+      "id": 16,
+      "userId": 28,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671725376/FatBack/jason2_vlaeo5.jpg",
+      "titleId": 7
+    },
+    {
+      "id": 17,
+      "userId": 29,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671724990/FatBack/joshwolfe2_ck90hf.jpg",
+      "titleId": 7
+    },
+    {
+      "id": 18,
+      "userId": 30,
+      "startDate": "09-04-2016",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671725097/FatBack/jonsmalt_yvnjbl.jpg",
+      "titleId": 4
+    }
+  ],
+  "studio": [
+    {
+      "id": 1,
+      "name": "Studio A"
+    },
+    {
+      "id": 2,
+      "name": "Studio B"
+    }
+  ],
+  "titles": [
+    {
+      "id": 1,
+      "type": "Owner"
+    },
+    {
+      "id": 2,
+      "type": "Engineer"
+    },
+    {
+      "id": 3,
+      "type": "Mixer"
+    },
+    {
+      "id": 4,
+      "type": "Producer"
+    },
+    {
+      "id": 5,
+      "type": "Videographer"
+    },
+    {
+      "id": 6,
+      "type": "Photographer"
+    },
+    {
+      "id": 7,
+      "type": "Session Musician"
+    },
+    {
+      "id": 8,
+      "type": "Manager"
+    },
+    {
+      "id": 9,
+      "type": "Studio Dog"
+    },
+    {
+      "id": 10,
+      "type": "Voice Coach"
+    },
+    {
+      "id": 11, 
+      "type": "Talent Scout"
+    }
+  ],
+  "clients": [
+    {
+      "userId": 14,
+      "isArtist": true,
+      "id": 1
+    },
+    {
+      "userId": 17,
+      "isArtist": true,
+      "id": 2
+    },
+    {
+      "userId": 18,
+      "isArtist": true,
+      "id": 3
+    },
+    {
+      "userId": 19,
+      "isArtist": true,
+      "id": 4
+    },
+    {
+      "userId": 20,
+      "isArtist": true,
+      "id": 5
+    },
+    {
+      "userId": 21,
+      "isArtist": true,
+      "id": 6
+    }
+  ],
+  "artists": [
+    {
+      "artistName": "Langhorne Slim",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671727629/FatBack/langhornslim_s5dhg3.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 17
+    },
+    {
+      "id": 1,
+      "artistName": "Devon Gilfillian",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671663045/FatBack/devon_rtxl0p.jpg",
+      "startDate": "2018-05-12",
+      "endDate": "2018-05-19",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "id": 2,
+      "artistName": "Josh Wolfe",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1670885552/FatBack/joshwolfe_f89cik.jpg",
+      "startDate": "2018-05-12",
+      "endDate": "2018-05-21",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "id": 3,
+      "artistName": "Cabin Boys",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671664222/FatBack/cabinboys_ugq5uv.jpg",
+      "startDate": "2018-05-12",
+      "endDate": "2018-05-18",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "id": 4,
+      "artistName": "Charlie Treat",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671664155/FatBack/charlietreat_ydot7c.jpg",
+      "startDate": "2018-05-12",
+      "endDate": "2018-05-18",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "artistName": "BAX",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671664455/FatBack/baxter_RGB_portrait_LR-2_xo9blh.jpg",
+      "startDate": "2021-12-03",
+      "endDate": "2021-12-25",
+      "notes": "Donec tempus varius turpis tristique iaculis. Donec egestas quam nunc. Nunc id risus at libero facilisis tincidunt. Sed ut felis vel mauris tempor condimentum. Proin at neque sit amet est tristique rutrum eu in neque. Donec dapibus eros at metus tincidunt gravida. Morbi rutrum auctor leo quis maximus. Vestibulum pulvinar cursus felis nec varius. Nullam eu mauris lobortis urna tincidunt tincidunt sit amet ac massa. Aliquam feugiat congue mauris, quis placerat lorem elementum eget. Curabitur sollicitudin fringilla rhoncus. Donec sagittis in nibh convallis lobortis. Sed pulvinar venenatis ante, a mattis nunc posuere sit amet.",
+      "id": 11
+    },
+    {
+      "artistName": "Steven Tyler",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671727628/FatBack/steventyler_pp9iud.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 14
+    },
+    {
+      "id": 7,
+      "artistName": "Jeff Carl",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1670886835/FatBack/jeffy-5_hooobw.jpg",
+      "startDate": "2018-05-12",
+      "endDate": "2018-05-18",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "id": 8,
+      "artistName": "Adrian & Meredith",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671662272/FatBack/A_M-4_dpdkjr.jpg",
+      "startDate": "2019-02-12",
+      "endDate": "2019-02-18",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "id": 5,
+      "artistName": "Smooth Hound Smith",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671664324/FatBack/smoothhoundsmith_bdmvkc.jpg",
+      "startDate": "2018-05-12",
+      "endDate": "2018-05-18",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "id": 6,
+      "artistName": "Forlorn Strangers",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1670885552/FatBack/forlorn_strangers_fwqabj.jpg",
+      "startDate": "2018-05-12",
+      "endDate": "2018-05-18",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec. Potenti nullam ac tortor vitae purus. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Senectus et netus et malesuada fames ac turpis egestas maecenas."
+    },
+    {
+      "artistName": "Buddy Guy",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671727629/FatBack/buddyguy_cujwcw.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 19
+    },
+    {
+      "artistName": "Liz Cooper & the Stampede",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671663046/FatBack/lizcooper_m0xbzz.jpg",
+      "startDate": "2022-06-01",
+      "endDate": "2022-06-09",
+      "notes": "Etiam sagittis vestibulum interdum. Cras ullamcorper accumsan mauris, id dapibus urna hendrerit at. Praesent condimentum tempus urna, a euismod orci molestie nec. Cras sit amet urna et tellus tincidunt venenatis vel vel velit. Integer blandit ligula id risus porttitor tincidunt. Suspendisse eu suscipit orci, et luctus arcu. Cras gravida tempus metus, vitae rutrum nisl posuere ac.",
+      "id": 9
+    },
+    {
+      "artistName": "Joel Kaiser",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671663045/FatBack/joel-1_x5ywpv.jpg",
+      "startDate": "2022-03-04",
+      "endDate": "2022-03-31",
+      "notes": "Cras non quam sodales, molestie elit in, congue risus. Donec gravida malesuada ultrices. Aliquam aliquam dapibus hendrerit. Cras in elit semper purus sodales facilisis. Etiam elementum vitae ipsum ut convallis. Cras tempor, massa quis porta cursus, ligula augue congue mi, in egestas nisl velit a tortor. Nullam mauris sem, pellentesque nec mi mollis, rutrum sollicitudin arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin iaculis volutpat sem, in volutpat nisi mattis eget. Sed at ante in lacus malesuada congue. Phasellus posuere molestie accumsan. Nullam fermentum lorem eu varius porttitor. In felis sapien, aliquet eu quam a, viverra varius tortor. In ut accumsan felis. Donec ornare porttitor ligula, id viverra lectus blandit sed.",
+      "id": 10
+    },
+    {
+      "artistName": "Nicholas",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671665000/FatBack/nicholas-106_gtaxvy.jpg",
+      "startDate": "2021-10-07",
+      "endDate": "2021-10-30",
+      "notes": "Cras non quam sodales, molestie elit in, congue risus. Donec gravida malesuada ultrices. Aliquam aliquam dapibus hendrerit. Cras in elit semper purus sodales facilisis. Etiam elementum vitae ipsum ut convallis. Cras tempor, massa quis porta cursus, ligula augue congue mi, in egestas nisl velit a tortor. Nullam mauris sem, pellentesque nec mi mollis, rutrum sollicitudin arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin iaculis volutpat sem, in volutpat nisi mattis eget. Sed at ante in lacus malesuada congue. Phasellus posuere molestie accumsan. Nullam fermentum lorem eu varius porttitor. In felis sapien, aliquet eu quam a, viverra varius tortor. In ut accumsan felis. Donec ornare porttitor ligula, id viverra lectus blandit sed.",
+      "id": 12
+    },
+    {
+      "artistName": "Friends of Lola",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671725581/FatBack/FofL-4_riaggg.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 13
+    },
+    {
+      "artistName": "Grace Slick",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671727628/FatBack/GraceSlick_nhokgx.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 15
+    },
+    {
+      "artistName": "Machaela Catherine Nesler",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671727669/FatBack/machaela2_pnrjye.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 16
+    },
+    {
+      "artistName": "The Vespers",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671726628/FatBack/thevespers_t6zswt.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 20
+    },
+    {
+      "artistName": "Melanie Martinez",
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671727629/FatBack/melaniemartinez_tfdw9o.jpg",
+      "startDate": "2021-10-20",
+      "endDate": "2021-10-24",
+      "notes": "Sed feugiat est mattis, facilisis mi ac, placerat elit. Nunc accumsan laoreet sapien sit amet faucibus. Phasellus porta, lorem quis finibus lacinia, tellus velit blandit mi, ut cursus lacus arcu vitae orci. Ut eu turpis eget eros consequat condimentum sit amet quis ligula. Vivamus eu purus augue. Aliquam scelerisque id dui ut maximus. Integer eget odio interdum, condimentum eros a, commodo elit. Sed et massa nec mauris consequat tempor. Nam non libero molestie, ornare augue non, placerat diam. Sed luctus lobortis ligula id mollis. Vivamus arcu sem, suscipit egestas luctus in, tempor ut eros.",
+      "id": 18
+    }
+  ],
+  "artistGenre": [
+    {
+      "id": 1,
+      "artistId": 1,
+      "genreId": 2
+    },
+    {
+      "id": 2,
+      "artistId": 1,
+      "genreId": 3
+    },
+    {
+      "id": 3,
+      "artistId": 1,
+      "genreId": 4
+    },
+    {
+      "id": 4,
+      "artistId": 2,
+      "genreId": 1
+    },
+    {
+      "id": 5,
+      "artistId": 2,
+      "genreId": 5
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "type": "Country"
+    },
+    {
+      "id": 2,
+      "type": "R&B"
+    },
+    {
+      "id": 3,
+      "type": "Soul"
+    },
+    {
+      "id": 4,
+      "type": "Indie Pop"
+    },
+    {
+      "id": 5,
+      "type": "Rock"
+    },
+    {
+      "id": 6,
+      "type": "Bluegrass"
+    },
+    {
+      "id": 7,
+      "type": "Americana"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661505/FatBack/fatback-1_xa09uv.jpg"
+    },
+    {
+      "id": 2,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661512/FatBack/fatback-10_gpuk1x.jpg"
+    },
+    {
+      "id": 3,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661518/FatBack/fatback-17_oldlpg.jpg"
+    },
+    {
+      "id": 4,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661521/FatBack/fatback-21_bn3hi5.jpg"
+    },
+    {
+      "id": 5,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661524/FatBack/fatback-20_ui5ywt.jpg"
+    },
+    {
+      "id": 6,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661526/FatBack/fatback-24_uhiplq.jpg"
+    },
+    {
+      "id": 7,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661528/FatBack/fatback-26_ic2vet.jpg"
+    },
+    {
+      "id": 8,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1670887474/FatBack/fatback-40_qvkzwh.jpg"
+    },
+    {
+      "id": 9,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661548/FatBack/fatback-44_irxwoz.jpg"
+    },
+    {
+      "id": 10,
+      "imageURL": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1671661535/FatBack/fatback-31_bptec2.jpg"
+    }
+  ],
+  "requests": [
+    {
+      "bandName": "A&B",
+      "phoneNumber": "6159487908",
+      "genreId": 3,
+      "numOfSongs": "EP",
+      "startDate": "2022-12-21",
+      "endDate": "2022-12-23",
+      "musicianRequest": false,
+      "sessionMusicians": true,
+      "photoRequest": true,
+      "videoRequest": false,
+      "userId": 17,
+      "isPending": false,
+      "isAccepted": true,
+      "isDenied": false,
+      "contacted": false,
+      "id": 1
+    },
+    {
+      "bandName": "Josh Wolfe",
+      "phoneNumber": "1234567890",
+      "genreId": 1,
+      "numOfSongs": "Full album ",
+      "startDate": "2022-12-21",
+      "endDate": "2022-12-24",
+      "musicianRequest": true,
+      "sessionMusicians": false,
+      "photoRequest": true,
+      "videoRequest": false,
+      "userId": 14,
+      "isPending": true,
+      "isAccepted": false,
+      "isDenied": false,
+      "contacted": false,
+      "id": 2
+    },
+    {
+      "bandName": "Forlorn Strangers",
+      "phoneNumber": "9876546789",
+      "genreId": 3,
+      "numOfSongs": "3 songs",
+      "startDate": "2022-12-19",
+      "endDate": "2022-12-21",
+      "musicianRequest": true,
+      "sessionMusicians": false,
+      "photoRequest": true,
+      "videoRequest": false,
+      "userId": 18,
+      "isPending": false,
+      "isAccepted": false,
+      "isDenied": true,
+      "contacted": false,
+      "id": 3
+    },
+    {
+      "bandName": "Cabin Boys",
+      "phoneNumber": "9098763546",
+      "genreId": 7,
+      "numOfSongs": "5 songs",
+      "startDate": "2023-01-05",
+      "endDate": "2023-01-07",
+      "musicianRequest": true,
+      "sessionMusicians": false,
+      "photoRequest": true,
+      "videoRequest": true,
+      "userId": 19,
+      "isPending": false,
+      "isAccepted": false,
+      "isDenied": true,
+      "contacted": false,
+      "id": 4
+    },
+    {
+      "bandName": "Charlie Treat & Friends",
+      "phoneNumber": "9876541234",
+      "genreId": 1,
+      "numOfSongs": "EP",
+      "startDate": "2022-12-30",
+      "endDate": "2023-01-06",
+      "musicianRequest": false,
+      "sessionMusicians": true,
+      "photoRequest": true,
+      "videoRequest": true,
+      "userId": 20,
+      "isPending": true,
+      "isAccepted": false,
+      "isDenied": false,
+      "contacted": false,
+      "id": 5
+    },
+    {
+      "bandName": "George",
+      "phoneNumber": "9864 41",
+      "genreId": 3,
+      "numOfSongs": "EP",
+      "startDate": "2022-12-28",
+      "endDate": "2022-12-31",
+      "musicianRequest": false,
+      "sessionMusicians": true,
+      "photoRequest": true,
+      "videoRequest": false,
+      "userId": 21,
+      "isPending": false,
+      "isAccepted": true,
+      "isDenied": false,
+      "contacted": false,
+      "id": 6
+    }
+  ]
+}
