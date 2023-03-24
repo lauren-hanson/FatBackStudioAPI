@@ -181,29 +181,28 @@
       "fullName": "George",
       "email": "george@george.com",
       "id": 37
+    },
+    {
+      "isStaff": true,
+      "isAdmin": true,
+      "fullName": "Admin",
+      "email": "admin@fatbackstudio.com",
+      "id": 38
+    },
+    {
+      "isStaff": true,
+      "isAdmin": false,
+      "fullName": "Staff",
+      "email": "staff@fatbackstudio.com",
+      "id": 39
+    },
+    {
+      "isStaff": false,
+      "isAdmin": false,
+      "fullName": "User",
+      "email": "user@fatbackstudio.com",
+      "id": 40
     }
-    // ,
-    // {
-    //   "isStaff": true,
-    //   "isAdmin": true,
-    //   "fullName": "Admin",
-    //   "email": "admin@admin.com",
-    //   "id": 38
-    // },
-    // {
-    //   "isStaff": true,
-    //   "isAdmin": false,
-    //   "fullName": "Staff",
-    //   "email": "staff@staff.com",
-    //   "id": 39
-    // },
-    // {
-    //   "isStaff": false,
-    //   "isAdmin": false,
-    //   "fullName": "User",
-    //   "email": "user@user.com",
-    //   "id": 40
-    // }
   ],
   "staff": [
     {
